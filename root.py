@@ -1,5 +1,4 @@
 #Formula for finding square root -> <number> power half(n**1/2)
-input=int(input('Enter a number: '))
-half=1/2
-squareroot=input**half
+number=int(input('Enter a number: '))
+squareroot=number**0.5
 print('Square Root:\n',squareroot)
