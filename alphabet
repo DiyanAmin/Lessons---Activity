@@ -1,0 +1,15 @@
+#Checking is user input is alphabet
+userinputa=input('Enter anything: ')
+userinputal=userinputa.lower()
+if userinputal=='a' or 'b' or 'c' or 'd' or 'e' or 'f' or 'g' or 'h' or 'i' or 'j' or 'k' or 'l' or 'm' or 'n' or 'o' or 'p' or 'q' or 'r' or 's' or 't' or 'u' or 'v' or 'w' or 'x' or 'y' or 'z':
+  print('Contains Alphabet')
+elif userinputal=='1'or '2' or '3' or '4' or '5' or '6' or '7' or '8' or '9' or '10':
+  print('Input does not contain a alphabet')
+else:
+    print('Input does not contain a alphabet')
+#Checking if given year is leap year or not
+userinputy=int(input('Enter a year: '))
+if userinputy%4==0.0:
+  print('Entered year is a leap year')
+else:
+  print('Entered year is not a leap year')
