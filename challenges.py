@@ -11,15 +11,16 @@
 
 #Indentify Operators
 #Checking if input is same as 2nd input
-l1='diyan'#input('Enter: ')
-l2='diyan'#input('Enter something else: ')
-g1=str(l1)
-g2=str(l2)
+g1=int(input('Enter: '))
+g2=int(input('Enter something else: '))
+# g1=#str(l1)
+# g2=#str(l2)
 print(g1 is g2)
 print(type(g1),type(g2))
-if g1 is g2:
-    print(l1 ,'and', l2,'are same')
+if int(g1) is int(g2):
+    print(g1 ,'and', g2,'are same')
 elif g2 is g1:
     print(g2 ,'and', g1,'are same')
 else:
     print(g1 ,'and',g2,'are not the same')
+print('End of code')
