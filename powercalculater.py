@@ -1,5 +1,5 @@
 #Calculaating power of number
+import math
 num=int(input('Enter a number: '))
-for j in range(num):
-    power=j**num
-print('Answer:\n',power)
+num2=int(input('Enter power: '))
+print('Answer:\n',math.pow(num,num2))
